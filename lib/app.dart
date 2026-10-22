@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'core/audio/synth_engine.dart';
 import 'services/settings_store.dart';
 import 'state/audio_monitor.dart';
@@ -9,12 +8,8 @@ import 'ui/screens/synth_screen.dart';
 import 'ui/theme.dart';
 
 class SynthApp extends StatelessWidget {
-  // ignore: prefer_initializing_formals
-  // ignore: prefer_initializing_formals
   const SynthApp({super.key, SynthEngine? engine, SettingsStore? store})
-      // ignore: prefer_initializing_formals
       : _engine = engine,
-        // ignore: prefer_initializing_formals
         _store = store;
   final SynthEngine? _engine;
 
